@@ -1,0 +1,44 @@
+=== Logistic Regression ===
+              precision    recall  f1-score   support
+
+  Legitimate       1.00      0.97      0.98      3403
+  Fraudulent       0.58      0.91      0.71       173
+
+    accuracy                           0.96      3576
+   macro avg       0.79      0.94      0.84      3576
+weighted avg       0.98      0.96      0.97      3576
+
+
+=== Naive Bayes ===
+              precision    recall  f1-score   support
+
+  Legitimate       0.97      0.99      0.98      3403
+  Fraudulent       0.65      0.34      0.44       173
+
+    accuracy                           0.96      3576
+   macro avg       0.81      0.66      0.71      3576
+weighted avg       0.95      0.96      0.95      3576
+
+
+=== Decision Tree ===
+              precision    recall  f1-score   support
+
+  Legitimate       0.99      0.95      0.97      3403
+  Fraudulent       0.45      0.83      0.59       173
+
+    accuracy                           0.94      3576
+   macro avg       0.72      0.89      0.78      3576
+weighted avg       0.96      0.94      0.95      3576
+
+
+=== Random Forest ===
+              precision    recall  f1-score   support
+
+  Legitimate       0.98      1.00      0.99      3403
+  Fraudulent       1.00      0.58      0.73       173
+
+    accuracy                           0.98      3576
+   macro avg       0.99      0.79      0.86      3576
+weighted avg       0.98      0.98      0.98      3576
+
+

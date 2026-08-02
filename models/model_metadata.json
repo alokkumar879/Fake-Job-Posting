@@ -1,0 +1,46 @@
+{
+  "best_model": "Random Forest",
+  "structured_columns": [
+    "telecommuting",
+    "has_company_logo",
+    "has_questions"
+  ],
+  "metrics": [
+    {
+      "model": "Random Forest",
+      "accuracy": 0.979586129753915,
+      "precision": 1.0,
+      "recall": 0.5780346820809249,
+      "f1_score": 0.7326007326007326,
+      "roc_auc": 0.990801214161595,
+      "train_time_sec": 34.86
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9636465324384788,
+      "precision": 0.5787545787545788,
+      "recall": 0.9132947976878613,
+      "f1_score": 0.7085201793721974,
+      "roc_auc": 0.9921371656087199,
+      "train_time_sec": 0.27
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.9435123042505593,
+      "precision": 0.45396825396825397,
+      "recall": 0.8265895953757225,
+      "f1_score": 0.5860655737704918,
+      "roc_auc": 0.893799079017324,
+      "train_time_sec": 6.09
+    },
+    {
+      "model": "Naive Bayes",
+      "accuracy": 0.95917225950783,
+      "precision": 0.651685393258427,
+      "recall": 0.3352601156069364,
+      "f1_score": 0.44274809160305345,
+      "roc_auc": 0.9301738180694015,
+      "train_time_sec": 0.01
+    }
+  ]
+}
