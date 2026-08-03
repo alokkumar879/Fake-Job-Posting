@@ -118,5 +118,4 @@ For a real-world screening system, **missing a scam is far more costly than an e
 ## 📊 Dataset Source
 Bansal, Shivam. *"[Real Or Fake] Fake Job Posting Prediction."* Kaggle, 2020 — originally the Employment Scam Aegean Dataset (EMSCAD), University of the Aegean.
 
-## 📄 License
-This project is released under the MIT License for educational/portfolio use.
+
